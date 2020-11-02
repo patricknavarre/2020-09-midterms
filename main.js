@@ -1,7 +1,21 @@
-// Your code below.
+// // Your code below.
 
+// const isValidPassword = function(str){
+//   return (str === ' ' && str === '.' && str.length > 12 ? true : false)
+// }
 
-
+const isValidPassword = function(str){
+  if (str.length < 12){
+    return false
+  } else if (str.includes(' ')){
+    return false
+  } else if (str.includes('.')){
+    return false
+  } else {
+    return true
+  }
+    
+}
 
 
 
