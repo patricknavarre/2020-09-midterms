@@ -17,6 +17,23 @@ const isValidPassword = function(str){
     
 }
 
+const onlyCs = function(nums){
+
+  return nums.filter(function(num){
+    if (num >= 70 && num <= 79) 
+    return num
+  })
+  }
+
+  const countBs = function(nums){
+
+    return nums.map(function(num){
+      if (num >= 80 && num <= 89) 
+      return num
+    })
+    }
+  
+  
 
 
 
